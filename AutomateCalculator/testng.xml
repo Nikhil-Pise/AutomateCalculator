@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="Test">
+   <classes>
+     <class name="FunctionalTesting.operations">
+      <methods>
+        
+       <include name ="Multiplication">
+       <parameter name ="n1" value="423"/>
+       <parameter name ="n2" value="525"/>
+       <parameter name ="result" value=" 222075"/>
+       </include>
+       
+       <include name ="Division">
+       <parameter name ="n1" value="4000"/>
+       <parameter name ="n2" value="200"/>
+       <parameter name ="result" value=" 20"/>
+       </include>
+       
+       <include name ="Addition">
+       <parameter name ="n1" value="-234234"/>
+       <parameter name ="n2" value="345345"/>
+       <parameter name ="result" value=" 111111"/>
+       </include>
+       
+       <include name ="Substraction">
+       <parameter name ="n1" value="234823"/>
+       <parameter name ="n2" value="-23094823"/>
+       <parameter name ="result" value=" 23329646"/>
+       </include>
+       
+       
+      </methods>
+      </class>
+      
+   </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

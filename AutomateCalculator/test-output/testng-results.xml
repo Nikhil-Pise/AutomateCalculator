@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-22T14:00:49 IST" name="Suite" finished-at="2022-04-22T14:01:15 IST" duration-ms="25659">
+    <groups>
+    </groups>
+    <test started-at="2022-04-22T14:00:49 IST" name="Test" finished-at="2022-04-22T14:01:15 IST" duration-ms="25659">
+      <class name="FunctionalTesting.operations">
+        <test-method is-config="true" signature="RunBrowser()[pri:0, instance:FunctionalTesting.operations@771a660]" started-at="2022-04-22T14:00:49 IST" name="RunBrowser" finished-at="2022-04-22T14:00:54 IST" duration-ms="4908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunBrowser -->
+        <test-method signature="Multiplication(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:FunctionalTesting.operations@771a660]" started-at="2022-04-22T14:00:54 IST" name="Multiplication" finished-at="2022-04-22T14:00:59 IST" duration-ms="5232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[423]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[525]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ 222075]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multiplication -->
+        <test-method signature="Division(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:FunctionalTesting.operations@771a660]" started-at="2022-04-22T14:00:59 IST" name="Division" finished-at="2022-04-22T14:01:04 IST" duration-ms="5155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ 20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Division -->
+        <test-method signature="Addition(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:FunctionalTesting.operations@771a660]" started-at="2022-04-22T14:01:04 IST" name="Addition" finished-at="2022-04-22T14:01:09 IST" duration-ms="5142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-234234]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ 111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addition -->
+        <test-method signature="Substraction(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:FunctionalTesting.operations@771a660]" started-at="2022-04-22T14:01:09 IST" name="Substraction" finished-at="2022-04-22T14:01:15 IST" duration-ms="5165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[234823]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-23094823]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ 23329646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Substraction -->
+      </class> <!-- FunctionalTesting.operations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
